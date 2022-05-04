@@ -25,7 +25,7 @@ fetch(
           aria-expanded="true"
           aria-controls="collapse${idx}"
         >
-          ${x.title}
+          ${x.Title}
         </button>
       </h2>
     </div>
@@ -37,10 +37,10 @@ fetch(
       data-parent="#accordion"
     >
       <div class="card-body">
-        ${x.body}
+        ${x.Paragraph}
         <br>
         <br>
-        <a href=${x.url} target="_blank">Ver más</a>
+        <a href=${x.URL} target="_blank">Ver más</a>
       </div>
     </div>
   </div>
